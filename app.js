@@ -7,7 +7,9 @@ const catchError=require('./middlewares/exception');//异常中间件
 
 
 const app = new Koa();
-
+console.log("-----------------------KOA 快速开发-----------------------");
+console.log("Auth:shaonianla1997");
+console.log("Github:https://github.com/shaonianla1997")
 app.use(catchError);
 app.use(parser());
 app.use(static(path.join(__dirname,'./static')));
